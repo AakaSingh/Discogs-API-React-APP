@@ -1,0 +1,70 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    height: 450px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 50%;
+    display: flex;
+}
+
+.searchTerm {
+    font-size: 15px;
+    width: 100%;
+    border: 3px solid #1abc9c;
+    border-right: none;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: black;
+}
+
+.searchButton {
+    width: 80px;
+    height: 46px;
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dataDiv {
+    overflow: scroll;
+    height: 600px;
+}
+
+.dataDiv::-webkit-scrollbar {
+    display: none;
+}
